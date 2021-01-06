@@ -8,7 +8,7 @@ Currently, the testing framework contains 3 automation tests, one tests the bulk
 OpenMRS_BulkHIVDataLoad, A simple test that tests the bulk data load into an instance of OpenMRS and provides the user with the stats (Number of patients, encounters and observations records loaded).  
   
 ### Assumptions    
-User is familiarity with OpenMRS, Python, and BDD framework Behave is assumed.  Familiarity with HIE components is recommended.  
+User is familiar with OpenMRS, Python, and BDD framework Behave is assumed.  Familiarity with HIE components is recommended.  
   
 ### Prerequisites     
 OpenMRS_BulkHIVDataLoad needs the following software -   
@@ -96,11 +96,11 @@ This test also tests the entire workflow of Case Based Reporting module. But ins
  You can execute the test with the below statement.  
    	behave --no-logcapture --include ./features/CBR_Multi_location_HIVCareContinuum  
   
-## Testing CBR with OpenMRS, OpenHIM, OpenEMPI and OpenHSR  
+## Testing CBR with OpenMRS, OpenHIM, OpenEMPI and OpenSHR  
  The two tests (CBR_HIVCareContinuum and  CBR_Multi_location_HIVCareContinuumSteps) discussed earlier can also be used to test CBR (Case Based Reporting) workflow that uses OpenSHR as shared health repository .  
    
 ### Assumptions    
-User is familiarity with OpenMRS, OpenMRS Case Based Reporting (CBR) Module, Python, and BDD framework Behave is assumed.  Familiarity with HIE components is recommended.  
+User is familiar with OpenMRS, OpenMRS Case Based Reporting (CBR) Module, Python, and BDD framework Behave is assumed.  Familiarity with HIE components is recommended.  
   
 ### Prerequisites     
 CBR_HIVCareContinuum and CBR_Multi_location_HIVCareContinuumSteps needs the following software   
